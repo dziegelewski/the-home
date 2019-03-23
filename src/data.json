@@ -1,0 +1,81 @@
+[
+ {
+    "title": "New stuff",
+    "id": 0,
+    "children": [
+      {
+        "title": "Crazy Multiplier Tank Furiously Invades North Korea TURBO",
+        "info": "Vue, Vuex",
+        "lang": "en",
+        "mobileFriendly": true,
+        "code": "https://github.com/dziegelewski/crazy-multiplier-tank-furiously-invades-north-korea-turbo",
+        "live": "http://turbo.dziegelewski.pl/"
+      },
+      {
+        "title": "Lambro",
+        "info": "React, Redux",
+        "lang": "en",
+        "mobileFriendly": true,
+        "code": "https://github.com/dziegelewski/lambro",
+        "live": "http://lambro.dziegelewski.pl/"
+      },
+
+      {
+        "title": "The Users",
+        "info": "Node.js, Express, MySQL",
+        "extraInfo": "Attention: may launch slowly due to Heroku free account limitations",
+        "lang": "en",
+        "mobileFriendly": true,
+        "code": "https://github.com/dziegelewski/the-users",
+        "live": "https://the-users.herokuapp.com/"
+      },
+
+      {
+        "title": "Christmas Tree Shop (Alpha)",
+        "info": "React, Redux, React Router",
+        "inDevelopment": true,
+        "lang": "en",
+        "mobileFriendly": true,
+        "code": "https://github.com/dziegelewski/christmas-tree-shop",
+        "live": "http://christmas.dziegelewski.pl"
+      }
+    ]
+  },
+  {
+    "title": "Old stuff",
+    "id": 1,
+    "children": [
+      {
+        "title": "Ajschylos",
+        "info": "JS, PHP, database",
+        "lang": "pl",
+        "mobileFriendly": false,
+        "code": "https://github.com/dziegelewski/ajschylos",
+        "live": "http://dziegelewski.pl/ajschylos/"
+      },
+      {
+        "title": "Crazy Multiplier Tank Furiously Invades North Korea",
+        "info": "Legacy code but it\"s fun to play",
+        "lang": "en",
+        "mobileFriendly": false,
+        "code": "https://github.com/dziegelewski/crazy-multiplier-tank-furiously-invades-north-korea",
+        "live": "http://dziegelewski.pl/tank"
+      },
+      {
+        "title": "MemoryGame",
+        "info": "Simple JS game displayed on error page",
+        "lang": "pl",
+        "mobileFriendly": true,
+        "live": "http://woblink.com/errors/502.html"
+      },
+      {
+        "title": "Król-Duch",
+        "info": "JS. Quite complex gameplay",
+        "lang": "pl",
+        "mobileFriendly": false,
+        "code": "https://github.com/dziegelewski/krol-duch",
+        "live": "http://dziegelewski.pl/krol-duch/"
+      }
+    ]
+  }
+]
