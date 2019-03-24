@@ -1,7 +1,28 @@
 [
- {
+  {
     "title": "New stuff",
-    "id": 0,
+    "_id": 0,
+    "children": [
+      {
+        "title": "Kopalnia Node",
+        "info": "Rx.js",
+        "lang": "en",
+        "mobileFriendly": false,
+        "code": "https://github.com/dziegelewski/kopalnia-node"
+      },
+      {
+        "title": "Let's Snake",
+        "info": "Node.js, Typescript, React, WebSocket",
+        "lang": "en",
+        "mobileFriendly": false,
+        "code": "https://github.com/dziegelewski/lets-snake",
+        "live": "http://letssnake.dziegelewski.pl/"
+      }
+    ]
+  },
+  {
+    "title": "Older stuff",
+    "_id": 1,
     "children": [
       {
         "title": "Crazy Multiplier Tank Furiously Invades North Korea TURBO",
@@ -12,6 +33,15 @@
         "live": "http://turbo.dziegelewski.pl/"
       },
       {
+        "title": "Christmas Tree Shop (Alpha)",
+        "info": "React, Redux, React Router",
+        "inDevelopment": true,
+        "lang": "en",
+        "mobileFriendly": true,
+        "code": "https://github.com/dziegelewski/christmas-tree-shop",
+        "live": "http://christmas.dziegelewski.pl"
+      },
+      {
         "title": "Lambro",
         "info": "React, Redux",
         "lang": "en",
@@ -19,7 +49,6 @@
         "code": "https://github.com/dziegelewski/lambro",
         "live": "http://lambro.dziegelewski.pl/"
       },
-
       {
         "title": "The Users",
         "info": "Node.js, Express, MySQL",
@@ -28,22 +57,12 @@
         "mobileFriendly": true,
         "code": "https://github.com/dziegelewski/the-users",
         "live": "https://the-users.herokuapp.com/"
-      },
-
-      {
-        "title": "Christmas Tree Shop (Alpha)",
-        "info": "React, Redux, React Router",
-        "inDevelopment": true,
-        "lang": "en",
-        "mobileFriendly": true,
-        "code": "https://github.com/dziegelewski/christmas-tree-shop",
-        "live": "http://christmas.dziegelewski.pl"
       }
     ]
   },
   {
     "title": "Old stuff",
-    "id": 1,
+    "_id": 2,
     "children": [
       {
         "title": "Ajschylos",

@@ -1,24 +1,31 @@
 import React, { Fragment } from "react"
-import { Link } from "gatsby"
+import styled from 'styled-components';
 
-import Layout from "../components/layout"
+import sections from "../data/sections.json"
 import ProjectsGroup from "../components/projects-group"
 import SEO from "../components/seo"
 
-import sections from '../data.json';
+const Main = styled.main`
+  max-width: 600px;
+  margin: 1rem auto;
+  font-size: 1.6rem;
+  padding: 0 1rem;
+  line-height: 150%;
 
-import '../styles.css';
-
+`
 const IndexPage = () => (
-  <main>
+  <Main>
     <SEO
       title="Grzegorz Dzięgelewski | Homepage"
       keywords={[`gatsby`, `application`, `react`]}
     />
     {sections.map((section, index) => (
-      <ProjectsGroup projectGroup={section} key={index} />
+      <Fragment>
+        {index > 0 && <hr />}
+        <ProjectsGroup projectGroup={section} key={index} />
+      </Fragment>
     ))}
-  </main>
+  </Main>
 )
 
 export default IndexPage

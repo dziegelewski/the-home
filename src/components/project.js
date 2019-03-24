@@ -1,41 +1,71 @@
 import React from "react"
+import styled from 'styled-components';
+
+const Article = styled.article`
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0 1rem;
+`
+
+const H3 = styled.h3`
+  font-size: 1.5rem;
+  margin: .5rem 0;
+`
+
+const Lang = styled.span`
+  color: #aaa;
+  font-size: 1rem;
+`
+
+const Text = styled.p`
+  margin: 0 0 .5rem;
+`
+
+const TextExtra = styled(Text)`
+  font-size: 1.2rem;
+`
+
+const A = styled.a`
+  margin-right: .5em;
+`
+
 
 const Project = ({ project }) => (
-  <article>
-    <h3>
+  <Article>
+    <H3>
       {project.title}
       {project.lang && (
-        <span className="lang">[{project.lang}]</span>
+        <Lang>{' '}[{project.lang}]</Lang>
       )}
-    </h3>
+    </H3>
 
-    <p>{project.info}</p>
+    <Text>{project.info}</Text>
 
     {project.extraInfo && (
-      <p className="extra-info">{project.extraInfo}</p>
+      <TextExtra>{project.extraInfo}</TextExtra>
     )}
 
     {project.inDevelopment && (
-      <p class="extra-info"><i>Project still in development</i></p>
+      <TextExtra><i>Project still in development</i></TextExtra>
     )}
 
     <div>
       {project.code && (
-        <a
+        <A
           href={project.code}
           title={`${project.title} code`}>
           [code]
-        </a>
+        </A>
       )}
       {project.live && (
-        <a
+        <A
           href={project.live}
           title={`${project.title} live`}>
           [live]
-        </a>
+        </A>
       )}
     </div>
-  </article>
+  </Article>
 );
 
 export default Project;
