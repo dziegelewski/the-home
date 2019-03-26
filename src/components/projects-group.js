@@ -2,12 +2,9 @@ import React  from "react"
 import styled from 'styled-components';
 
 import Project from './project';
-
-const H2 = styled.h2`
-  font-size: 2.5rem;
-  font-weight: 400;
-  margin: 2rem 0 1rem;
-`
+import {
+  H2,
+} from './styled';
 
 const ProjectsGroup = ({ projectGroup }) => (
   <section>

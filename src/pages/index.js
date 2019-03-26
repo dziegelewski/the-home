@@ -1,18 +1,10 @@
-import React, { Fragment } from "react"
-import styled from 'styled-components';
+import React from "react"
 
 import sections from "../data/sections.json"
 import ProjectsGroup from "../components/projects-group"
 import SEO from "../components/seo"
+import { Main } from "../components/styled"
 
-const Main = styled.main`
-  max-width: 600px;
-  margin: 1rem auto;
-  font-size: 1.6rem;
-  padding: 0 1rem;
-  line-height: 150%;
-
-`
 const IndexPage = () => (
   <Main>
     <SEO
@@ -20,10 +12,10 @@ const IndexPage = () => (
       keywords={[`gatsby`, `application`, `react`]}
     />
     {sections.map((section, index) => (
-      <Fragment>
+      <>
         {index > 0 && <hr />}
         <ProjectsGroup projectGroup={section} key={index} />
-      </Fragment>
+      </>
     ))}
   </Main>
 )
