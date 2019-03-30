@@ -5,6 +5,7 @@
     "children": [
       {
         "title": "Kopalnia Node",
+        "year": 2019,
         "info": "Rx.js",
         "lang": "en",
         "mobileFriendly": false,
@@ -12,6 +13,7 @@
       },
       {
         "title": "Let's Snake",
+        "year": 2018,
         "info": "Node.js, Typescript, React, WebSocket",
         "lang": "en",
         "mobileFriendly": false,
@@ -21,11 +23,12 @@
     ]
   },
   {
-    "title": "Older stuff",
+    "title": "Old stuff",
     "_id": 1,
     "children": [
       {
         "title": "Crazy Multiplier Tank Furiously Invades North Korea TURBO",
+        "year": 2017,
         "info": "Vue, Vuex",
         "lang": "en",
         "mobileFriendly": true,
@@ -34,6 +37,7 @@
       },
       {
         "title": "Christmas Tree Shop (Alpha)",
+        "year": 2018,
         "info": "React, Redux, React Router",
         "inDevelopment": true,
         "lang": "en",
@@ -43,6 +47,7 @@
       },
       {
         "title": "Lambro",
+        "year": 2017,
         "info": "React, Redux",
         "lang": "en",
         "mobileFriendly": true,
@@ -51,6 +56,7 @@
       },
       {
         "title": "The Users",
+        "year": 2018,
         "info": "Node.js, Express, MySQL",
         "extraInfo": "Attention: may launch slowly due to Heroku free account limitations",
         "lang": "en",
@@ -61,11 +67,12 @@
     ]
   },
   {
-    "title": "Old stuff",
+    "title": "Older stuff",
     "_id": 2,
     "children": [
       {
         "title": "Ajschylos",
+        "year": 2016,        
         "info": "JS, PHP, database",
         "lang": "pl",
         "mobileFriendly": false,
@@ -74,7 +81,8 @@
       },
       {
         "title": "Crazy Multiplier Tank Furiously Invades North Korea",
-        "info": "Legacy code but it\"s fun to play",
+        "year": 2016,        
+        "info": "Legacy code but it's fun to play",
         "lang": "en",
         "mobileFriendly": false,
         "code": "https://github.com/dziegelewski/crazy-multiplier-tank-furiously-invades-north-korea",
@@ -82,6 +90,7 @@
       },
       {
         "title": "MemoryGame",
+        "year": 2017,
         "info": "Simple JS game displayed on error page",
         "lang": "pl",
         "mobileFriendly": true,
@@ -89,6 +98,7 @@
       },
       {
         "title": "Król-Duch",
+        "year": 2016,
         "info": "JS. Quite complex gameplay",
         "lang": "pl",
         "mobileFriendly": false,

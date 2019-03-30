@@ -1,10 +1,10 @@
 import React  from "react"
-import styled from 'styled-components';
 
 import Project from './project';
 import {
   H2,
 } from './styled';
+
 
 const ProjectsGroup = ({ projectGroup }) => (
   <section>

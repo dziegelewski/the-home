@@ -11,7 +11,7 @@ const color = {
 }
 
 export const Main = styled.main`
-  max-width: 600px;
+  max-width: 550px;
   margin: 1rem auto;
   font-size: ${font.medium};
   padding: 0 1rem;

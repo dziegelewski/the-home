@@ -1,9 +1,11 @@
 import React from "react"
 
 import sections from "../data/sections.json"
-import ProjectsGroup from "../components/projects-group"
 import SEO from "../components/seo"
 import { Main } from "../components/styled"
+import groupAndEntitleByYears from "../helpers/group-and-entitle-by-years.js";
+import ProjectsGroupedList from "../components/projects-grouped-list";
+
 
 const IndexPage = () => (
   <Main>
@@ -11,12 +13,9 @@ const IndexPage = () => (
       title="Grzegorz Dzięgelewski | Homepage"
       keywords={[`gatsby`, `application`, `react`]}
     />
-    {sections.map((section, index) => (
-      <>
-        {index > 0 && <hr />}
-        <ProjectsGroup projectGroup={section} key={index} />
-      </>
-    ))}
+    <ProjectsGroupedList
+      groups={groupAndEntitleByYears(sections)}
+    />
   </Main>
 )
 
