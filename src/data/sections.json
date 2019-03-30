@@ -1,7 +1,6 @@
 [
   {
     "title": "New stuff",
-    "_id": 0,
     "children": [
       {
         "title": "Kopalnia Node",
@@ -24,7 +23,6 @@
   },
   {
     "title": "Old stuff",
-    "_id": 1,
     "children": [
       {
         "title": "Crazy Multiplier Tank Furiously Invades North Korea TURBO",
@@ -68,12 +66,11 @@
   },
   {
     "title": "Older stuff",
-    "_id": 2,
     "children": [
       {
         "title": "Ajschylos",
         "year": 2016,        
-        "info": "JS, PHP, database",
+        "info": "JS, PHP, mySQL",
         "lang": "pl",
         "mobileFriendly": false,
         "code": "https://github.com/dziegelewski/ajschylos",

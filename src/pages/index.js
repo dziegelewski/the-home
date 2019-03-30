@@ -11,7 +11,6 @@ const IndexPage = () => (
   <Main>
     <SEO
       title="Grzegorz Dzięgelewski | Homepage"
-      keywords={[`gatsby`, `application`, `react`]}
     />
     <ProjectsGroupedList
       groups={groupAndEntitleByYears(sections)}
