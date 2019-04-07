@@ -3,6 +3,15 @@
     "title": "New stuff",
     "children": [
       {
+        "title": "CV Builder",
+        "year": 2019,
+        "info": "React, GatsbyJS",
+        "lang": "en",
+        "mobileFriendly": false,
+        "code": "https://github.com/dziegelewski/cv-builder",
+        "live": "http://cvexample.dziegelewski.pl/"
+      },
+      {
         "title": "Kopalnia Node",
         "year": 2019,
         "info": "Rx.js",
