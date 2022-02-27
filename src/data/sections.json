@@ -9,7 +9,7 @@
         "lang": "en",
         "mobileFriendly": false,
         "code": "https://github.com/dziegelewski/cv-builder",
-        "live": "http://cvexample.dziegelewski.pl/"
+        "live": "http://cvexample.dziegelewski.com/"
       },
       {
         "title": "Kopalnia Node",
@@ -26,7 +26,7 @@
         "lang": "en",
         "mobileFriendly": false,
         "code": "https://github.com/dziegelewski/lets-snake",
-        "live": "http://letssnake.dziegelewski.pl/"
+        "live": "http://letssnake.dziegelewski.com/"
       }
     ]
   },
@@ -40,17 +40,16 @@
         "lang": "en",
         "mobileFriendly": true,
         "code": "https://github.com/dziegelewski/crazy-multiplier-tank-furiously-invades-north-korea-turbo",
-        "live": "http://turbo.dziegelewski.pl/"
+        "live": "http://turbo.dziegelewski.com/"
       },
       {
         "title": "Christmas Tree Shop (Alpha)",
         "year": 2018,
         "info": "React, Redux, React Router",
-        "inDevelopment": true,
         "lang": "en",
         "mobileFriendly": true,
         "code": "https://github.com/dziegelewski/christmas-tree-shop",
-        "live": "http://christmas.dziegelewski.pl"
+        "live": "http://trees.dziegelewski.com"
       },
       {
         "title": "Lambro",
@@ -59,7 +58,7 @@
         "lang": "en",
         "mobileFriendly": true,
         "code": "https://github.com/dziegelewski/lambro",
-        "live": "http://lambro.dziegelewski.pl/"
+        "live": "http://lambro.dziegelewski.com/"
       },
       {
         "title": "The Users",
@@ -78,21 +77,22 @@
     "children": [
       {
         "title": "Ajschylos",
-        "year": 2016,        
+        "year": 2016,
         "info": "JS, PHP, mySQL",
         "lang": "pl",
         "mobileFriendly": false,
+        "hidden": true,
         "code": "https://github.com/dziegelewski/ajschylos",
-        "live": "http://dziegelewski.pl/ajschylos/"
+        "live": ""
       },
       {
         "title": "Crazy Multiplier Tank Furiously Invades North Korea",
-        "year": 2016,        
+        "year": 2016,
         "info": "Legacy code but it's fun to play",
         "lang": "en",
         "mobileFriendly": false,
         "code": "https://github.com/dziegelewski/crazy-multiplier-tank-furiously-invades-north-korea",
-        "live": "http://dziegelewski.pl/tank"
+        "live": "http://turbo-legacy.dziegelewski.com"
       },
       {
         "title": "MemoryGame",
@@ -109,7 +109,7 @@
         "lang": "pl",
         "mobileFriendly": false,
         "code": "https://github.com/dziegelewski/krol-duch",
-        "live": "http://dziegelewski.pl/krol-duch/"
+        "live": "http://krol-duch.dziegelewski.com"
       }
     ]
   }

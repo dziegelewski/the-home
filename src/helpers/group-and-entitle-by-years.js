@@ -5,7 +5,7 @@ import {
 
 
 const getProjects = (sections) => {
-  return sections.flatMap((section) => section.children)
+  return sections.flatMap((section) => section.children).filter(project => !project.hidden);
 }
 
 const groupByYears = (projects) => {
